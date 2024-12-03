@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  --montserrat: "Montserrat", sans-serif;
+  --fraunces: "Fraunces", serif;
+  --featured-text: ultra-condensed 500 3em/150% var(--montserrat);
+  --text-bold: 900 2.5em/150% var(--fraunces);
+  --text-preset: 1.4em/100% var(--montserrat);
+  --text-button: 700 1.4em/100% var(--montserrat);
+  --text-footer: 1.4em/100% "Arial", sans-serif;
+}
