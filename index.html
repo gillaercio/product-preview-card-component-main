@@ -13,33 +13,15 @@
   <link rel="stylesheet" href="assets/css/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; font: var(--text-footer);}
-    .attribution a { color: hsl(228, 45%, 44%); }
 
-    h1, span {
-      font: var(--text-bold);
-    }
-
-    h2 {
-      font: var(--featured-text);
-      text-transform: uppercase;
-    }
-
-    p, div {
-      font: var(--text-preset);
-    }
-
-    button {
-      font: var(--text-button);
-    }
-  </style> -->
 </head>
 <body>
 
-  <main>
-    <img src="assets/images/image-product-mobile.jpg" alt="Image of Gabrielle Perfume">
-
+  <header>
+    <img class="perfumeImage" src="assets/images/image-product-mobile.jpg" alt="Image of Gabrielle Perfume">
+  </header>
+  
+  <main id="content">
     <h2>Perfume</h2>
 
     <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -50,17 +32,19 @@
     </p>
 
     <div>
-      <span>$149.99</span>
-      $169.99
+      <span class="featuredPrice">$149.99</span>
+      <span class="crossedOutPrice">$169.99</span>
     </div>
 
-    <button>
-      <img src="assets/images/icon-cart.svg" alt="Icon Cart"> Add to Cart
-    </button>
+    <form>
+      <button>
+        <img class="cart" src="assets/images/icon-cart.svg" alt="Icon Cart"> Add to Cart
+      </button>
+    </form>
   </main>
   
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br> 
     Coded by <a href="https://github.com/gillaercio/product-preview-card-component-main" target="_blank">Gildman Laécio</a>.
   </footer>
 </body>
