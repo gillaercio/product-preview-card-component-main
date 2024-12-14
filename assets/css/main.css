@@ -1,16 +1,7 @@
 @charset "UTF-8";
 
 body {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--cream);
-}
-
-header {
-  margin-top: 20px;
 }
 
 header img.perfumeImage {
@@ -21,50 +12,52 @@ header img.perfumeImage {
   border-top-right-radius: 10px;
 }
 
-main#content {
+main {
   width: 320px;
   margin: auto;
-  margin-top: -21px;
-  padding: 20px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
   background-color: var(--white);
 }
 
-main#content h1,
-main#content .featuredPrice {
+#content {
+  padding: 20px;
+}
+
+#content h1,
+#content .featuredPrice {
   font: var(--text-bold);
   padding-block: 16px;
 }
 
-main#content h2 {
+#content h2 {
   font: var(--featured-text);
   color: var(--dark-grayish-blue);
   text-transform: uppercase;
   letter-spacing: 0.4em;
 }
 
-main#content p,
-main#content .crossedOutPrice {
+#content p,
+#content .crossedOutPrice {
   font: var(--text-preset);
   color: var(--dark-grayish-blue);
   padding-bottom: 20px;
 }
 
-main#content span {
+#content span {
   vertical-align: middle;
 }
 
-main#content .crossedOutPrice {
+#content .crossedOutPrice {
   text-decoration: line-through;
 }
 
-main#content .featuredPrice {
+#content .featuredPrice {
   color: var(--dark-cyan);
   margin-right: 20px;
 }
 
-main#content button {
+#content button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,24 +74,25 @@ main#content button {
   transition: all .4s;
 }
 
-main#content button:hover {
+#content button:hover {
   background-color: var(--very-dark-blue);
 }
 
-footer.attribution {
+.attribution {
   font: var(--text-footer);
   text-align: center;
   margin: center;
+  margin-top: 20px;
 }
 
-footer.attribution a {
+.attribution a {
   font-weight: 600;
   color: black;
   text-decoration: none;
   transition: all .4s;
 }
 
-footer.attribution a:hover {
+.attribution a:hover {
   color: hsl(228, 45%, 44%);
   text-decoration: underline;
 }
