@@ -1,6 +1,38 @@
 @charset "UTF-8";
 
 @media screen and (width > 640px){
-  
+  main {
+    width: 640px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-evenly;
+  }
 
+  #perfumeImage img {
+    height: 452px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+
+  #content {
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  #content h1,
+  #content .featuredPrice {
+    font-size: 3.2em;
+    padding-block: 18px;
+  }
+
+  #content p {
+    font-size: 1.5em;
+  }
+
+  #content button {
+    margin-top: 25px;
+  }
 }

@@ -23,6 +23,6 @@ html {
   --featured-text: 400 1.3em/150% var(--montserrat);
   --text-bold: 800 3em/100% var(--fraunces);
   --text-preset: 1.4em/150% var(--montserrat);
-  --text-button: 700 1.4em/100% var(--montserrat);
+  --text-button: 600 1.4em/100% var(--montserrat);
   --text-footer: 1.4em/100% "Arial", sans-serif;
 }
