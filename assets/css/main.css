@@ -2,17 +2,19 @@
 
 body {
   background-color: var(--cream);
+  height: 100%;
 }
 
 main {
   width: 320px;
-  height: 90vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: space-evenly;
+  transition: width .4s, height .4s;
+  transition-timing-function: ease;
 }
 
 #perfumeImage img {
@@ -89,6 +91,7 @@ main {
   font: var(--text-footer);
   text-align: center;
   margin: center;
+  margin-top: 20px;
 }
 
 .attribution a {
