@@ -2,17 +2,18 @@
 
 body {
   background-color: var(--cream);
-  height: 100%;
-}
-
-main {
-  width: 320px;
-  margin: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: space-evenly;
+  gap: 10px;
+}
+
+main {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
   transition: width .4s, height .4s;
   transition-timing-function: ease;
 }
@@ -91,7 +92,6 @@ main {
   font: var(--text-footer);
   text-align: center;
   margin: center;
-  margin-top: 20px;
 }
 
 .attribution a {

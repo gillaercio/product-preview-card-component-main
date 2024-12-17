@@ -4,8 +4,6 @@
   main {
     width: 640px;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: space-evenly;
   }
 
   #perfumeImage img {
