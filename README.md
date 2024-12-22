@@ -37,12 +37,12 @@ These are my screenshots showing how the project turned out.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Grid Layout
 - Mobile-first workflow
 
 ### What I learned
 
-I took advantage of this project to practice the use of **Flexbox**:
+I took advantage of this project to practice the use of **Grid Layout**:
 
 Smooth transition of sizes
 
@@ -53,9 +53,42 @@ main {
 }
 ```
 
+Centering content on the screen
+
+```css
+  body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+```
+
+Setting each content in its place
+
+```css
+  main {
+    display: grid;
+    grid-template-areas:
+    'header section'
+    'footer footer'
+  }
+
+  #perfumeImage {
+    grid-area: header;
+  }
+
+  #content {
+    grid-area: section;
+  }
+
+  #attribution {
+    grid-area: footer;
+  }
+```
+
 ### Continued development
 
-I would like to improve the use of **Flexbox** in conjunction with media queries.
+I would like to improve the use of **Grid layout** in conjunction with media queries.
 
 ## Author
 
