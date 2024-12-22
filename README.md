@@ -58,8 +58,7 @@ Centering content on the screen
 ```css
   body {
     display: grid;
-    justify-items: center;
-    align-items: center;
+    place-items: center;
   }
 ```
 

@@ -4,9 +4,7 @@ body {
   background-color: var(--cream);
   min-height: 100vh;
   display: grid;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
+  place-items: center;
 }
 
 main {
@@ -18,7 +16,6 @@ main {
 #perfumeImage img {
   width: 320px;
   object-fit: cover;
-  margin: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -88,7 +85,7 @@ main {
 .attribution {
   font: var(--text-footer);
   text-align: center;
-  margin: center;
+  /* margin: center; */
 }
 
 .attribution a {
