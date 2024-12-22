@@ -1,19 +1,32 @@
 @charset "UTF-8";
 
 @media screen and (width > 640px){
+  body {
+    display: grid;
+  }
+
   main {
     width: 640px;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas:
+    'header section'
+    'footer footer'
+  }
+
+  #perfumeImage {
+    grid-area: header;
   }
 
   #perfumeImage img {
-    height: 452px;
+    /* height: 452px; */
+    height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
   }
 
   #content {
+    grid-area: section;
     padding: 40px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -32,5 +45,9 @@
 
   #content button {
     margin-top: 25px;
+  }
+
+  #attribution {
+    grid-area: footer;
   }
 }

@@ -3,17 +3,14 @@
 body {
   background-color: var(--cream);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
   align-items: center;
   gap: 10px;
 }
 
 main {
   width: 320px;
-  display: flex;
-  flex-direction: column;
   transition: width .4s, height .4s;
   transition-timing-function: ease;
 }
